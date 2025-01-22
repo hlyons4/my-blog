@@ -10,3 +10,4 @@ Here’s my new blog post content in markdown:
 jk there's no content
 
 
+![Intense stare of business man in a work environment surrounded by golden floating snakes.](/assets/img/Snakeman.jpg)
