@@ -6,12 +6,12 @@ description: This post is a step-by-step guide to building a simple linear regre
 
 ---
 
-<p class="intro"><span class="dropcap">E</span>ver wondered how companies predict sales based on ad spending? Or how economists estimate housing prices? The answer often lies in **linear regression**, one of the simplest yet most powerful tools in data science. </p>
+<p class="intro"><span class="dropcap">E</span>ver wondered how companies predict sales based on ad spending? Or how economists estimate housing prices? The answer often lies in __linear regression__, one of the simplest yet most powerful tools in data science. </p>
 
 
 
 
-### Step 1: Setting Up Your Environment
+#### Step 1: Setting Up Your Environment
 
 Before we begin, ensure you have the required Python libraries installed. If you haven’t already, run:
 
@@ -33,7 +33,7 @@ from sklearn.metrics import r2_score
 
 
 
-### Step 2: Loading and Exploring Data
+#### Step 2: Loading and Exploring Data
 
 For this tutorial, we’ll create a simple dataset representing TV ad spending and the corresponding sales generated.
 
@@ -44,7 +44,7 @@ data = {
 }
 df = pd.DataFrame(data)
 {%- endhighlight -%}
-#### Quick Data Check
+###### Quick Data Check
 {%- highlight python -%}
 print(df.head())  # Displays the first five rows
 print(df.describe())  # Summary statistics
@@ -53,7 +53,7 @@ print(df.describe())  # Summary statistics
 
 
 
-### Step 3: Preparing the Data
+#### Step 3: Preparing the Data
 
 We define our independent variable (TV_Ad_Spend) and dependent variable (Sales), then split the data into training and testing sets.
 
@@ -68,13 +68,13 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_
 
 
 
-### Step 4: Training the Linear Regression Model
+#### Step 4: Training the Linear Regression Model
 Now, let’s create and train a Linear Regression model.
 {%- highlight python -%}
 model = LinearRegression()
 model.fit(X_train, y_train)
 {%- endhighlight -%}
-#### Understanding the Model Coefficients
+###### Understanding the Model Coefficients
 {%- highlight python -%}
 print(f"Slope (Coefficient): {model.coef_[0]:.2f}")
 print(f"Intercept: {model.intercept_:.2f}")
@@ -88,7 +88,7 @@ print(f"Intercept: {model.intercept_:.2f}")
 
 
 
-### Step 5: Making Predictions
+#### Step 5: Making Predictions
 
 We now use our trained model to make predictions on the test set.
 
@@ -99,7 +99,7 @@ y_pred = model.predict(X_test)
 
 
 
-### Step 6: Evaluating Model Performance
+#### Step 6: Evaluating Model Performance
 
 To measure how well our model fits the data, we use the R² score:
 
@@ -113,7 +113,7 @@ print(f"R² Score: {r2:.2f}")
 
 
 
-### Step 7: Visualizing the Regression Line
+#### Step 7: Visualizing the Regression Line
 
 A visual representation helps us understand how well the model predicts sales.
 
@@ -127,7 +127,7 @@ plt.show()
 {%- endhighlight -%}
 
 
-### Wrapping Up: What’s Next?
+#### Wrapping Up: What’s Next?
 Congratulations! You just built your first linear regression model in Python. 
 
 You learned how to:
@@ -137,5 +137,5 @@ You learned how to:
 4. Evaluate model performance using R²
 5. Visualize the results with a regression line
 
-#### Next Steps:
+###### Next Steps:
 If you're looking for a more statistical approach similar to R, consider using statsmodels. It provides additional features like p-values and confidence intervals, which can help in understanding the significance of your predictors. If these are important for your analysis, statsmodels is a great alternative to Scikit-Learn for regression modeling. Check out <a href="https://www.statsmodels.org/stable/index.html" target="_blank">Statsmodels' documentation</a>.
