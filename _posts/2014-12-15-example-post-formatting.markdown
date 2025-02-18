@@ -1,23 +1,15 @@
 ---
 layout: post
-title:  "Example Post Formatting"
-date:   2014-12-15
-description: This is a post was provided by the template to show how to format different parts of the blog post in markdown.
+title:  "Crack The Code of Predictions"
+date:   2025-2-04
+description: This post is a step-by-step guide to building a simple linear regression model in Python.
+image: /assets/img/blog-image.jpg
+display_image: true
 ---
 
-<p class="intro"><span class="dropcap">C</span>urabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec sed odio dui. Aenean lacinia bibendum nulla sed consectetur.</p>
+<p class="intro"><span class="dropcap">E</span>ver wondered how companies predict sales based on ad spending? Or how economists estimate housing prices? The answer often lies in **linear regression**, one of the simplest yet most powerful tools in data science. </p>
 
-# Heading 1
-
-## Heading 2
-
-### Heading 3
-
-#### Heading 4
-
-##### Heading 5
-
-###### Heading 6
+## Step 1: Setting Up Your Environment
 
 <blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote>
 

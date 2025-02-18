@@ -6,7 +6,7 @@ description: This post is a step-by-step guide to building a simple linear regre
 
 ---
 
-<p class="intro"><span class="dropcap">E</span>ver wondered how companies predict sales based on ad spending? Or how economists estimate housing prices? The answer often lies in linear regression, one of the simplest yet most powerful tools in data science. </p>
+<p class="intro"><span class="dropcap">E</span>ver wondered how companies predict sales based on ad spending? If a company spends $175 on TV ads, how much can they expect in sales? Linear regression helps answer questions like these by identifying relationships between variables. It is one of the simplest yet most powerful tools in data science, commonly used in business, economics, and various analytical fields. </p>
 
 
 
@@ -126,6 +126,9 @@ plt.legend()
 plt.show()
 {%- endhighlight -%}
 
+#### Graph Interpretation
+
+The scatter plot shows actual sales values, while the regression line represents predicted sales. If most points are close to the line, our model makes accurate predictions.
 
 ### Wrapping Up: What’s Next?
 Congratulations! You just built your first linear regression model in Python. 
@@ -138,4 +141,4 @@ You learned how to:
 5. Visualize the results with a regression line
 
 #### Next Steps:
-If you're looking for a more statistical approach similar to R, consider using statsmodels. It provides additional features like p-values and confidence intervals, which can help in understanding the significance of your predictors. If these are important for your analysis, statsmodels is a great alternative to Scikit-Learn for regression modeling. Check out <a href="https://www.statsmodels.org/stable/index.html" target="_blank">Statsmodels' documentation</a>.
+If you’re looking for a more statistical approach similar to R, consider using statsmodels. It provides additional features like p-values and confidence intervals, which can help assess the significance of your predictors. If these are important for your analysis, statsmodels is a great alternative to Scikit-Learn for regression modeling. Check out <a href="https://www.statsmodels.org/stable/index.html" target="_blank">Statsmodels' documentation</a>.
