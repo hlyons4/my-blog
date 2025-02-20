@@ -117,14 +117,10 @@ print(f"R² Score: {r2:.2f}")
 
 A visual representation helps us understand how well the model predicts sales.
 
-{%- highlight python -%}
-plt.scatter(X_test, y_test, color='blue', label='Actual Sales')
-plt.plot(X_test, y_pred, color='red', linewidth=2, label='Regression Line')
-plt.xlabel("TV Ad Spend")
-plt.ylabel("Sales")
-plt.legend()
-plt.show()
-{%- endhighlight -%}
+<figure>
+	<img src="{{site.url}}/{{site.baseurl}}/assets/img/regression_plot.png" alt=""> 
+	<figcaption>Figure 1. - This is an example figcaption</figcaption>
+</figure>
 
 #### Graph Interpretation
 
