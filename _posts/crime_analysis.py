@@ -32,5 +32,5 @@ plt.title("Relationship Between Temperature and Violent Crime Rates")
 plt.xlabel("Temperature (°C)")
 plt.ylabel("Number of Violent Crimes")
 plt.tight_layout()
-plt.savefig("regression_plot.png")  #save the figure
+plt.savefig("crime_plot.png")  #save the figure
 plt.show()
