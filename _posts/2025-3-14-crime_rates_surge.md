@@ -5,7 +5,7 @@ date:   2025-3-16
 description: This post explores how extreme weather impacts crime rates using data analysis, visualizations, and real-world trends.
 ---
 
-<p class="intro"><span class="dropcap">W</span><h3>onder why most crime in movies happens in dreary, stormy weather? It’s not just a cinematic trick to set the mood—data suggests there’s real-world truth behind it. As the weather worsens, crime rates tend to rise. From heatwaves that spark tempers to storms that create the perfect cover for illegal activities, extreme weather and crime seem to go hand in hand.<br></h3>
+<h3><p class="intro"><span class="dropcap">W</span></h3>onder why most crime in movies happens in dreary, stormy weather? It’s not just a cinematic trick to set the mood—data suggests there’s real-world truth behind it. As the weather worsens, crime rates tend to rise. From heatwaves that spark tempers to storms that create the perfect cover for illegal activities, extreme weather and crime seem to go hand in hand.<br>
 
 
 But why does this happen? Does extreme heat make people more aggressive? Do storms create opportunities for crime, or do they deter it? These questions drive the heart of this investigation. Using real crime and weather data, we’ll explore whether there’s a measurable link between extreme weather events—heatwaves, cold spells, storms—and violent crime rates. Let’s dive into the data and see what patterns emerge.<br>
@@ -38,14 +38,12 @@ After cleaning and merging the datasets, I conducted some initial analyses. Here
 <strong>Storms & Crime:</strong> Heavy storms seemed to reduce outdoor crimes like assault but had little effect on crimes that occur indoors.<br>
 
 <figure>
-	<img src="{{site.url}}/{{site.baseurl}}/assets/img/daily_crimes.png" alt=""> 
+	<img src="{{site.url}}/{{site.baseurl}}/assets/img/daily_crimes.jpg" alt=""> 
 	<figcaption>Figure 1. - Violent Crime Rates in Chicago</figcaption>
 </figure>
 
-This bar chart displays the total number of crimes by type in Chicago for the analyzed period. The data highlights which crimes are most and least frequent, offering insight into prevalent criminal activities within the city. Crime types with higher counts may indicate areas requiring more attention from law enforcement or community safety initiatives.<br>
-
 <figure>
-	<img src="{{site.url}}/{{site.baseurl}}/assets/img/daily_crime_trend.png" alt=""> 
+	<img src="{{site.url}}/{{site.baseurl}}/assets/img/daily_crime_trend.jpg" alt=""> 
 	<figcaption>Figure 1. - Violent crime rates compared to concurring weather</figcaption>
 </figure>
 <br>
