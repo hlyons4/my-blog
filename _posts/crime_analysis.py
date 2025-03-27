@@ -6,20 +6,7 @@ import matplotlib.pyplot as plt
 
 # Load data
 crime_weather_df = pd.read_csv("merged_crime_weather_data.csv")
-print(crime_weather_df.head())
-
-# heatmap_data = crime_weather_df.groupby(['hour', 'temperature']).size().unstack(fill_value=0)
-
-# plt.figure(figsize=(12, 8))
-# sns.heatmap(heatmap_data, cmap='coolwarm', annot=True, fmt='d', linewidths=0.5)
-# plt.title("Heatmap of Crime Counts vs. Temperature by Hour of the Day")
-# plt.xlabel("Temperature (°C)")
-# plt.ylabel("Hour of the Day")
-# plt.tight_layout()
-# plt.savefig("assets/img/crime_temp_heatmap.jpg", format='jpg', bbox_inches='tight')
-# plt.show()
-
-
+#print(crime_weather_df.head())
 
 # #temperature & crime correlation
 # plt.figure(figsize=(12, 8))
