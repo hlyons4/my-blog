@@ -5,7 +5,8 @@ date:   2025-3-16
 description: This post explores how extreme weather impacts crime rates using data analysis, visualizations, and real-world trends.
 ---
 
-<h3></h3><p class="intro"><span class="dropcap">W</span>onder why most crime in movies happens in dreary, stormy weather? It’s not just a cinematic trick to set the mood—data suggests there’s real-world truth behind it. As the weather worsens, crime rates tend to rise. From heatwaves that spark tempers to storms that create the perfect cover for illegal activities, extreme weather and crime seem to go hand in hand.<br>
+<h3>Wonder why most crime in movies happens in dreary, stormy weather?</h3> 
+It’s not just a cinematic trick to set the mood—data suggests there’s real-world truth behind it. As the weather worsens, crime rates tend to rise. From heatwaves that spark tempers to storms that create the perfect cover for illegal activities, extreme weather and crime seem to go hand in hand.<br>
 
 
 But why does this happen? Does extreme heat make people more aggressive? Do storms create opportunities for crime, or do they deter it? These questions drive the heart of this investigation. Using real crime and weather data, we’ll explore whether there’s a measurable link between extreme weather events—heatwaves, cold spells, storms—and violent crime rates. Let’s dive into the data and see what patterns emerge.<br>
