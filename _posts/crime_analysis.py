@@ -94,7 +94,8 @@ with tab1:
     plt.ylabel('Total Crime Count')
     plt.legend(title='Location Type')
     #save figure for blog
-    loc_fig.savefig("location_vs_storm.png")
+    loc_fig.savefig("assets/img/location_vs_storm.png")
+
     st.pyplot(loc_fig)
     
     #created a drop down menu for crime type
@@ -128,7 +129,7 @@ with tab3:
     plt.grid(True)
     plt.tight_layout()
     #save figure for blog
-    pig.savefig("assault_vs_temp.png")
+    pig.savefig("assets/img/assault_vs_temp.png")
     st.pyplot(pig)
     
 with tab4:
@@ -142,6 +143,6 @@ with tab4:
     sns.heatmap(heat_data, cmap="YlOrRd", ax=ax)
     plt.title("Crime Frequency Heatmap (Month x Day)")
     #save figure for blog
-    fig.savefig("crime_heatmap_calendar.png")
+    fig.savefig("assets/img/crime_heatmap_calendar.png")
     st.pyplot(fig)
 #note: check which packages are not on base python-listed in the requirements file
