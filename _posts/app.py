@@ -144,4 +144,5 @@ with tab4:
     #save figure for blog
     fig.savefig("crime_heatmap_calendar.png")
     st.pyplot(fig)
+
 #note: check which packages are not on base python-listed in the requirements file
