@@ -5,7 +5,7 @@ date:   2025-4-15
 description: This post explores how extreme weather impacts crime rates using data analysis, visualizations, and real-world trends.
 ---
 
-class="intro"><span class="dropcap">I</span>f you read the last post, you know I started wondering whether extreme weather actually affects crime. Turns out… it <em>does</em>! But raw numbers can only say so much. The real story came through the visuals.<br>
+If you read the last post, you know I started wondering whether extreme weather actually affects crime. Turns out… it <em>does</em>! But raw numbers can only say so much. The real story came through the visuals.<br>
 
 To bring everything to life, I built a Streamlit app, which is basically a way to turn data into something you can actually interact with. Instead of scrolling through a bunch of static charts, the app lets you click around, filter by crime type, toggle storm days, and see how things shift with temperature. I added tabs, dropdowns, and live-updating graphs so even someone with zero data experience could explore and uncover patterns for themselves.<br>
 

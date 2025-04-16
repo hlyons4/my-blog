@@ -87,7 +87,7 @@ with tab1:
     group_loc_storm = crime_weather_df.groupby(['storm', 'location_type'])['count'].sum().reset_index()
     group_loc_storm['storm'] = group_loc_storm['storm'].map({0: 'No Storm', 1: 'Storm'})
 
-    loc_fig = plt.figure(figsize=(10, 6))
+    loc_fig = plt.figure(figsize=(10, 8))
     sns.barplot(data=group_loc_storm, x='storm', y='count', hue='location_type')
     plt.title('Total Crime Counts by Location Type During Storms')
     plt.xlabel('Weather Condition')
@@ -106,7 +106,7 @@ with tab2:
     noi = st.selectbox("Choose a crime type", unique_crimes)
     plot_crime = st.checkbox('Plot the selected crime type')
 
-    fig = plt.figure(figsize=(15, 8))
+    fig = plt.figure(figsize=(10, 8))
 
     if plot_crime:
         filtered = crime_weather_df[crime_weather_df['crime_type'] == noi]
@@ -121,7 +121,7 @@ with tab2:
         st.pyplot(fig)
 
 with tab3:
-    pig = plt.figure(figsize=(15, 8))
+    pig = plt.figure(figsize=(10, 8))
     sns.scatterplot(data=daily_assault, x="temperature", y="count")
     plt.title("Average Assault Count vs Temperature")
     plt.xlabel("Temperature (°F)")
@@ -139,7 +139,7 @@ with tab4:
 
     heat_data = daily_total.pivot_table(index='month', columns='day', values='count', aggfunc='mean')
 
-    fig, ax = plt.subplots(figsize=(12, 6))
+    fig, ax = plt.subplots(figsize=(10, 8))
     sns.heatmap(heat_data, cmap="YlOrRd", ax=ax)
     plt.title("Crime Frequency Heatmap (Month x Day)")
     #save figure for blog
