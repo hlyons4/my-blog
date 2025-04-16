@@ -42,4 +42,4 @@ Streamlit honestly made it click. Watching the patterns shift with just a few fi
 
 What started as a small question became a really eye-opening look into human behavior and how the environment around us shapes it.<br>
 
-If you’re curious, the <a href="https://www.fbi.gov/services/cjis/ucr" target="_blank">app</a><br> is live. Try it out. Choose a crime. Slide through the weather conditions. See what stories the data tells you. You might just fall into the same rabbit hole I did.
+If you’re curious, the <a href="https://crime-weather-app-2cekkmprr2p9urjmdzzcrg.streamlit.app/" target="_blank">app</a><br> is live. Try it out. Choose a crime. Slide through the weather conditions. See what stories the data tells you. You might just fall into the same rabbit hole I did.
